@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RestkitSampleCoredata/AppDelegate.swift"
+            timestampString = "457601162.202234"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "138"
+            endingLineNumber = "138"
+            landmarkName = "loadProgressData()"
+            landmarkType = "5">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "RestkitSampleCoredata.AppDelegate.(loadProgressData (RestkitSampleCoredata.AppDelegate) -&gt; () -&gt; ()).(closure #1)"
+                  moduleName = "RestkitSampleCoredata"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mini/Documents/Projects/RestkitSampleCoredata/RestkitSampleCoredata/AppDelegate.swift"
+                  timestampString = "457601162.350006"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "140"
+                  endingLineNumber = "140"
+                  offsetFromSymbolStart = "28">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "RestkitSampleCoredata.AppDelegate.(loadProgressData (RestkitSampleCoredata.AppDelegate) -&gt; () -&gt; ()).(closure #1).(closure #1)"
+                  moduleName = "RestkitSampleCoredata"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mini/Documents/Projects/RestkitSampleCoredata/RestkitSampleCoredata/AppDelegate.swift"
+                  timestampString = "457601162.350353"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "142"
+                  endingLineNumber = "142"
+                  offsetFromSymbolStart = "28">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

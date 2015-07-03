@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="7549" systemVersion="14D136" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Progress" representedClassName="Progress" syncable="YES">
+        <attribute name="type" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="report" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="ProgressReport" inverseName="progress" inverseEntity="ProgressReport" syncable="YES"/>
+    </entity>
+    <entity name="ProgressReport" representedClassName="ProgressReport" syncable="YES">
+        <attribute name="amount" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="bodyfat" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="calorie" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="calorie_burned" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="carb" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="exercise_type" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="fat" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="fibre" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="log_date" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="progress_type" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="protein" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="weight" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="progress" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Progress" inverseName="report" inverseEntity="Progress" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Progress" positionX="-63" positionY="-18" width="128" height="75"/>
+        <element name="ProgressReport" positionX="-54" positionY="-9" width="128" height="255"/>
+    </elements>
+</model>
